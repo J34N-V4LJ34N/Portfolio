@@ -2,19 +2,64 @@
 <html lang="en">
 
 <head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Portfolio | Jean Tharappel</title>
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" type="image/svg" href="/Assets/Images/Logo.svg">
 </head>
 
-<body>
-    <h1>
-        Portfolio of Jean Mani Joseph Tharappel
-    </h1>
-    <h2>
-        Under Development, Coming Soon
-    </h2>
+<body class="bg-body text-white">
+    <header
+        class="py-3 bg-nav w-screen fixed navbar-container flex justify-between items-center mx-auto px-14 lg:px-24">
+        <div class="">
+            <a href="/"><img class="h-7 ml-5 sm:h-10" src="../Assets/Images/Logo.svg" alt="Logo" /></a>
+        </div>
+        <div class="hidden md:flex space-x-12 items-center">
+            <div><a class="hover:text-button" href="/projects">PROJECTS</a></div>
+            <div><a class="hover:text-button" href="/about">ABOUT</a></div>
+            <div><a class="hover:text-button" href="/resume">RESUME</a></div>
+            <div><a class="hover:text-button" href="/contact">CONTACT</a></div>
+        </div>
+        <div class="menu-btn h-6 sm:h-10 md:hidden mr-3">
+            <div class="menu-btn__burger"></div>
+        </div>
+    </header>
+    <div
+        class="navbar-container dropdown hidden flex-col fixed  right-5  md:hidden items-center space-y-5 bg-nav p-5 rounded-lg">
+        <div><a class="hover:text-button" href="/projects">PROJECTS</a></div>
+        <div><a class="hover:text-button" href="/about">ABOUT</a></div>
+        <div><a class="hover:text-button" href="/resume">RESUME</a></div>
+        <div><a class="hover:text-button" href="/contact">CONTACT</a></div>
+    </div>
+
+    <div class="h-screen flex flex-col justify-center space-y-8 pt-16  mx-10 sm:mx-32">
+        <h1 class="text-base sm:text-xl ">Hi, I am<span
+                class="text-3xl sm:text-5xl font-semibold text-selected-text ml-1">
+                JEAN</span>
+        </h1>
+        <h1 class="text-base sm:text-xl ">an interaction design student from IIT Guwahati</h1>
+        <h1 class="text-base sm:text-xl ">and this is my <span
+                class="text-3xl sm:text-5xl font-semibold text-selected-text ml-1">
+                PORTFOLIO</span>
+        </h1>
+        <div class="flex space-x-3">
+            <button
+                class="bg-button border-2 border-button p-3 rounded-full text-button-text hover:bg-body hover:text-button">View
+                Projects</button>
+            <button
+                class="bg-button border-2 border-button p-3 rounded-full text-button-text hover:bg-body hover:text-button">View
+                Resume</button>
+        </div>
+    </div>
+    <img src="./Assets/Images/Poirtrait.png"
+        class="h-screen pt-24 hidden po:block absolute top-0 right-0 -z-10 object-cover" alt="Poirtrait" />
+    <img src="./Assets/Images/bg-hex.png" class="h-screen hidden po:block absolute top-0 right-0 -z-20 object-cover"
+        alt="background image" />
+    <img src="./Assets/Images/bg-hex-flip.png" class="h-screen po:hidden absolute top-0 left-0 -z-20 object-cover"
+        alt="background image" />
+    <script src="main.js"></script>
 </body>
 
 </html>
