@@ -730,6 +730,10 @@ html {
   margin-left: 2.5rem;
 }
 
+.ml-auto{
+  margin-left: auto;
+}
+
 .flex{
   display: flex;
 }
@@ -768,6 +772,10 @@ html {
 
 .w-28{
   width: 7rem;
+}
+
+.flex-row{
+  flex-direction: row;
 }
 
 .flex-col{
