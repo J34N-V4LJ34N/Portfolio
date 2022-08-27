@@ -691,6 +691,21 @@ html {
   margin-right: 2.5rem;
 }
 
+.mx-16{
+  margin-left: 4rem;
+  margin-right: 4rem;
+}
+
+.mx-40{
+  margin-left: 10rem;
+  margin-right: 10rem;
+}
+
+.mx-96{
+  margin-left: 24rem;
+  margin-right: 24rem;
+}
+
 .ml-5{
   margin-left: 1.25rem;
 }
@@ -705,6 +720,14 @@ html {
 
 .mt-8{
   margin-top: 2rem;
+}
+
+.ml-6{
+  margin-left: 1.5rem;
+}
+
+.ml-10{
+  margin-left: 2.5rem;
 }
 
 .flex{
@@ -727,16 +750,20 @@ html {
   height: 100vh;
 }
 
+.h-10{
+  height: 2.5rem;
+}
+
+.h-20{
+  height: 5rem;
+}
+
 .w-screen{
   width: 100vw;
 }
 
 .w-full{
   width: 100%;
-}
-
-.w-14{
-  width: 3.5rem;
 }
 
 .w-28{
@@ -860,6 +887,11 @@ html {
   padding-right: 1rem;
 }
 
+.px-10{
+  padding-left: 2.5rem;
+  padding-right: 2.5rem;
+}
+
 .pt-16{
   padding-top: 4rem;
 }
@@ -890,6 +922,21 @@ html {
 .text-5xl{
   font-size: 3rem;
   line-height: 1;
+}
+
+.text-lg{
+  font-size: 1.125rem;
+  line-height: 1.75rem;
+}
+
+.text-4xl{
+  font-size: 2.25rem;
+  line-height: 2.5rem;
+}
+
+.text-xl{
+  font-size: 1.25rem;
+  line-height: 1.75rem;
 }
 
 .font-semibold{
@@ -945,8 +992,21 @@ html {
     margin-right: 8rem;
   }
 
+  .sm\:mx-40{
+    margin-left: 10rem;
+    margin-right: 10rem;
+  }
+
   .sm\:h-10{
     height: 2.5rem;
+  }
+
+  .sm\:h-14{
+    height: 3.5rem;
+  }
+
+  .sm\:h-12{
+    height: 3rem;
   }
 
   .sm\:w-8\/12{
@@ -966,6 +1026,31 @@ html {
   .sm\:text-4xl{
     font-size: 2.25rem;
     line-height: 2.5rem;
+  }
+
+  .sm\:text-2xl{
+    font-size: 1.5rem;
+    line-height: 2rem;
+  }
+
+  .sm\:text-6xl{
+    font-size: 3.75rem;
+    line-height: 1;
+  }
+
+  .sm\:text-3xl{
+    font-size: 1.875rem;
+    line-height: 2.25rem;
+  }
+
+  .sm\:text-7xl{
+    font-size: 4.5rem;
+    line-height: 1;
+  }
+
+  .sm\:text-lg{
+    font-size: 1.125rem;
+    line-height: 1.75rem;
   }
 }
 
