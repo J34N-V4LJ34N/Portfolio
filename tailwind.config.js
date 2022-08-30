@@ -27,6 +27,14 @@ module.exports = {
         "button-text": "#041B15",
         input: "#2A2A35",
       },
+      width: {
+        desk: "500px",
+        mob: "300px",
+      },
+      height: {
+        desk: "281px",
+        mob: "169px",
+      },
     },
   },
   plugins: [],
