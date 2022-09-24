@@ -1102,6 +1102,10 @@ img {
   position: absolute;
 }
 
+.relative{
+  position: relative;
+}
+
 .right-5{
   right: 1.25rem;
 }
@@ -1136,10 +1140,6 @@ img {
 
 .m-3{
   margin: 0.75rem;
-}
-
-.m-auto{
-  margin: auto;
 }
 
 .mx-auto{
@@ -1189,16 +1189,28 @@ img {
   margin-top: 5rem;
 }
 
-.ml-auto{
-  margin-left: auto;
+.mt-5{
+  margin-top: 1.25rem;
 }
 
 .mt-3{
   margin-top: 0.75rem;
 }
 
-.mt-5{
-  margin-top: 1.25rem;
+.mt-2{
+  margin-top: 0.5rem;
+}
+
+.mt-2\.5{
+  margin-top: 0.625rem;
+}
+
+.mb-10{
+  margin-bottom: 2.5rem;
+}
+
+.ml-auto{
+  margin-left: auto;
 }
 
 .flex{
@@ -1225,6 +1237,14 @@ img {
   height: 100vh;
 }
 
+.h-28{
+  height: 7rem;
+}
+
+.h-prototype{
+  height: 800px;
+}
+
 .w-screen{
   width: 100vw;
 }
@@ -1239,12 +1259,20 @@ img {
   width: 13rem;
 }
 
-.w-full{
-  width: 100%;
+.w-80{
+  width: 20rem;
 }
 
 .w-28{
   width: 7rem;
+}
+
+.w-persona{
+  width: 700px;
+}
+
+.w-full{
+  width: 100%;
 }
 
 .flex-row{
@@ -1301,6 +1329,10 @@ img {
   margin-bottom: calc(1rem * var(--tw-space-y-reverse));
 }
 
+.overflow-hidden{
+  overflow: hidden;
+}
+
 .rounded-lg{
   border-radius: 0.5rem;
 }
@@ -1319,6 +1351,10 @@ img {
 
 .border-2{
   border-width: 2px;
+}
+
+.border{
+  border-width: 1px;
 }
 
 .border-0{
@@ -1411,6 +1447,14 @@ img {
   padding-top: 2.5rem;
 }
 
+.pt-4{
+  padding-top: 1rem;
+}
+
+.pb-5{
+  padding-bottom: 1.25rem;
+}
+
 .text-base{
   font-size: 1rem;
   line-height: 1.5rem;
@@ -1475,7 +1519,7 @@ img {
 
 .text-selected-text-2{
   --tw-text-opacity: 1;
-  color: rgb(193 252 149 / var(--tw-text-opacity));
+  color: rgb(202 226 177 / var(--tw-text-opacity));
 }
 
 .text-black{
@@ -1493,15 +1537,15 @@ img {
 .checkered {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(0, 0, 0, 1) 25%,
+      rgba(97, 152, 142, 1) 25%,
       transparent 25%,
       transparent 75%,
-      rgba(1, 1, 1, 0.0980392) 75%,
-      rgba(0, 0, 0, 1) 0
+      rgba(97, 152, 142, 1) 75%,
+      rgba(97, 152, 142, 1) 0
     ),
-    -webkit-linear-gradient(45deg, rgba(0, 0, 0, 1) 25%, transparent 25%, transparent
-          75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 1) 0),
-    white;
+    -webkit-linear-gradient(45deg, rgba(97, 152, 142, 1) 25%, transparent 25%, transparent
+          75%, rgba(97, 152, 142, 1) 75%, rgba(97, 152, 142, 1) 0),
+    rgba(202, 226, 177, 1);
   background-repeat: repeat, repeat;
   background-position: 0px 0, 50px 50px;
   transform-origin: 0 0 0;

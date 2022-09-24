@@ -437,15 +437,15 @@
 .checkered {
   background: -webkit-linear-gradient(
       45deg,
-      rgba(0, 0, 0, 1) 25%,
+      rgba(97, 152, 142, 1) 25%,
       transparent 25%,
       transparent 75%,
-      rgba(1, 1, 1, 0.0980392) 75%,
-      rgba(0, 0, 0, 1) 0
+      rgba(97, 152, 142, 1) 75%,
+      rgba(97, 152, 142, 1) 0
     ),
-    -webkit-linear-gradient(45deg, rgba(0, 0, 0, 1) 25%, transparent 25%, transparent
-          75%, rgba(0, 0, 0, 0.0980392) 75%, rgba(0, 0, 0, 1) 0),
-    white;
+    -webkit-linear-gradient(45deg, rgba(97, 152, 142, 1) 25%, transparent 25%, transparent
+          75%, rgba(97, 152, 142, 1) 75%, rgba(97, 152, 142, 1) 0),
+    rgba(202, 226, 177, 1);
   background-repeat: repeat, repeat;
   background-position: 0px 0, 50px 50px;
   -webkit-transform-origin: 0 0 0;

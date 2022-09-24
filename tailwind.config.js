@@ -20,7 +20,7 @@ module.exports = {
       colors: {
         body: "#0B132B",
         "selected-text": "#EFF1C5",
-        "selected-text-2": "#C1FC95",
+        "selected-text-2": "#CAE2B1",
         "selected-text-3": "#D9BBF9",
         "selected-text-4": "#F3D2DE",
         "selected-text-5": "#FFD2B2",
@@ -34,12 +34,14 @@ module.exports = {
         card: "#136F63",
       },
       width: {
+        persona: "700px",
         desk: "500px",
         mob: "300px",
       },
       height: {
         desk: "281px",
         mob: "169px",
+        prototype: "800px",
       },
     },
   },
